@@ -1,0 +1,9 @@
+.section{
+    background: url(./assets/LoginBG.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+form {
+    backdrop-filter: blur(10px)
+}
