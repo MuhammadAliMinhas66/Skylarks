@@ -3,9 +3,10 @@ import Navbar from "./Navbar";
 import { collection, setDoc, doc } from "firebase/firestore";
 import { db } from "../authentication/FirebaseConfig";
 import { toast } from "react-toastify";
-import bcrypt from "bcryptjs";
+import { useNavigate } from "react-router-dom";
 
 const Create = () => {
+  const navigate = useNavigate();
   const [data, setData] = useState({
     email: "",
     password: "",
@@ -20,7 +21,10 @@ const Create = () => {
     event.preventDefault();
     const newUsers = doc(collection(db, "CreatedUsers"));
     await setDoc(newUsers, data)
-      .then(() => toast.success("Added successfully"))
+      .then(() => {
+        toast.success("Added successfully");
+        navigate("/");
+      })
       .catch((err) => {
         console.log(err);
         toast.error("Error while creating user");
