@@ -29,7 +29,8 @@ Welcome to the React.js Firebase Authentication Challenge! This project demonstr
    cd Project path
 
 2. **Install Dependencies**
-   ```npm install
+   ```
+   npm install
 3. **Set Up Firebase**
    - Go to Firebase Console.
    - Create a new project and enable Firebase Authentication and Firestore.
@@ -48,7 +49,8 @@ Welcome to the React.js Firebase Authentication Challenge! This project demonstr
 export default firebaseConfig;
 ```
 4. **Run the Application**
-   ``` npm run dev
+   ```
+   npm run dev
    ```
 ## **Usage**
 
@@ -64,7 +66,5 @@ export default firebaseConfig;
 
 Feel free to fork the repo and submit pull requests. For any issues or feature requests, please open an issue on the GitHub repository.
 
-## **License**
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
