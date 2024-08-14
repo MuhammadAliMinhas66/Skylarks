@@ -1,4 +1,4 @@
-# **React.js Firebase Authentication Challenge**
+# **React.js Firebase Authentication and CRUD Operations**
 
 ## **Overview**
 
