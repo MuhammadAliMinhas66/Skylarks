@@ -25,5 +25,8 @@ Welcome to the React.js Firebase Authentication Challenge! This project demonstr
 1. **Clone the Repository**
 
    ```bash
-   git clone [Your GitHub Repo Link]
+   git clone https://github.com/MuhammadAliMinhas66/Skylarks.git
    cd [Your Project Directory]
+
+2. **Install Dependencies**
+   ```npm install
