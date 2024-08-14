@@ -1,8 +1,29 @@
-# React + Vite
+# **React.js Firebase Authentication Challenge**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## **Overview**
 
-Currently, two official plugins are available:
+Welcome to the React.js Firebase Authentication Challenge! This project demonstrates a full authentication flow using Firebase and React.js. The app includes user authentication, user management, and real-time data updates with Firestore.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Features**
+
+- **User Authentication:**
+  - Manual user setup in Firebase Authentication.
+  - Login form with success and error toasts.
+  - Navigation to home page upon successful login.
+
+- **Home Page:**
+  - **Logout Button:** Logs out the user and redirects to the login page.
+  - **User List:** Displays users created by the authenticated user.
+  - **Create User Form:** Allows the creation of new users (email & password).
+
+- **User Management:**
+  - **Edit Button:** Opens a page to update user details (email and password).
+  - **Delete Button:** Removes the user from Firestore and updates the user list.
+
+## **Setup**
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone [Your GitHub Repo Link]
+   cd [Your Project Directory]
